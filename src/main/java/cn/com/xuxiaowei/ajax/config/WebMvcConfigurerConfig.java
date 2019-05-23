@@ -49,7 +49,7 @@ public class WebMvcConfigurerConfig implements WebMvcConfigurer {
      * 2    ：https
      * 3    ：http、https
      */
-    private static String[] getOrigins() {
+    public static String[] getOrigins() {
 
         Map<String, Integer> map = new HashMap<>(10);
 
