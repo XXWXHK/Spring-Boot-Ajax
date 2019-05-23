@@ -58,9 +58,6 @@ public class WebMvcConfigurerConfig implements WebMvcConfigurer {
 
         map.put("xuxiaowei.com.cn", 3);
         map.put("www.xuxiaowei.com.cn", 3);
-        map.put("demo.xuxiaowei.com.cn", 3);
-        map.put("demo1.xuxiaowei.com.cn", 3);
-        map.put("demo2.xuxiaowei.com.cn", 3);
 
         List<String> list = new ArrayList<>();
 
