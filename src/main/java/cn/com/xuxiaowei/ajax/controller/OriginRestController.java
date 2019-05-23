@@ -21,7 +21,7 @@ public class OriginRestController {
     /**
      * 接收跨域请求
      */
-    @RequestMapping("origin.do")
+    @RequestMapping("/origin.do")
     public Map<String, Object> index(HttpServletRequest request, HttpServletResponse response) {
 
         Map<String, Object> map = new HashMap<>(4);
